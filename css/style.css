@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+
+:root{
+    --main-bg-color: #00abff;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: var(--main-bg-color);
+    /* border: 2px solid red; */
+    font-family: 'Playfair Display', serif;
+}
+nav{
+    display: flex;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+   
+}
+.logo img{
+    padding: 0 25px;
+
+}
+nav ul{
+    height: 65px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    padding: 0 23px;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+  
+}
+
+nav ul li a:hover{
+    color: black;
+    font-weight: bolder;
+  
+}
+
+.search{
+  
+    display: flex;
+    align-items: center;
+}
+
+.search button{
+    font-family: 'Playfair Display', serif; 
+    font-weight: 700;
+}
+.search input{
+    height: 3vw;
+width: 30vw;
+    border-radius: 8px;
+    margin: 0px 12px 0px 55px;
+    padding: 0px 12px;
+}
+
+#icon{
+    width: 30px;
+    cursor: pointer;
+    margin: 20px auto;
+}
+
+.container{
+    min-height: calc(100vh - 65px  - 11vh);
+}
+.slider{
+    display: flex;
+    margin: 12px auto;
+    width: 80vw;
+    justify-content: center;
+    overflow: hidden;
+}
+.best-seller{
+    display: flex;
+justify-content: center;
+margin: auto;
+max-width: 90vw;
+padding: 2vh;
+}
+h2{
+    font-family: 'Playfair Display', serif;
+    background-color: var(--main-bg-color);
+    padding: 2vh 3vw;
+}
+/* .heading{
+ display: flex;
+min-width: 100vw;
+justify-content: center;
+} */
+/* .heading{
+ display: block;
+width: 100%;
+text-transform: uppercase;
+padding: 0 0 20px 20px;
+line-height: 50px;
+font-size: 16px;
+} */
+.heading
+{
+    margin: 0px 55px;
+}
+
+.card{
+    background-color: red;
+    max-width: 80vw;
+/* justify-content: center; */
+display: flex;
+margin: 2vh auto;
+max-height: 72vh;
+overflow: scroll;
+font-family: 'Playfair Display', serif;
+}
+.card img{
+    margin: 3vh 0.7vw;
+}
+/* .card-item{
+display: inline-flex;
+justify-content: center;
+flex-direction: column;
+} */
+footer{
+    height: 9vh;
+    background-color: var(--main-bg-color);
+    color: white;
+    font-family: 'Playfair Display', serif;
+}
+

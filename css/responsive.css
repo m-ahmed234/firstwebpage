@@ -1,0 +1,44 @@
+@media screen and (max-width:1000px) {
+    /* body{
+        background-color: green;
+    } */
+    nav{
+        flex-direction: column;
+    }
+    .logo{
+        justify-content: center;
+margin: 2vh 2vw;
+    }
+    nav ul{
+        justify-content: center;
+    }
+    .search{
+        justify-content: center;
+    }
+    .search input{
+        margin: 9px 16px;;
+        height: 5vw;
+width: 38vw;
+    }
+    nav ul{
+        height: 34px;
+    }
+    .slider{
+        height:24vh;
+    }
+    .card-item{
+        padding: 0px 2px;
+    }
+    .card-item .image{
+        height: 35vh;
+width: 74vw;
+    }
+   .best-seller{
+    height: 22vh;
+   }
+   /*         not working  .btn:hover{
+ 
+    background-color: red;
+    font-weight: bolder;} */
+  
+}
